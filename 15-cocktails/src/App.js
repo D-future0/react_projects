@@ -13,7 +13,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home/>} />
       <Route path="/About" element={<About/>} />
-      <Route path="/SingleCocktail" element={<SingleCocktail/>} />
+      <Route path="/Cocktail/:id" element={<SingleCocktail/>} />
       <Route path="*" element={<Error/>} />
       {/* <Route path="/">
       <Home/>
